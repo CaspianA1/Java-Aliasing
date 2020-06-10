@@ -37,7 +37,6 @@ for index, token in enumerate(import_code):
 while None in import_code:
 	import_code.remove(None)
 
-
 modified_imports = "".join([token + " " for token in import_code]).rstrip()
 
 file_data = file_data.split()
